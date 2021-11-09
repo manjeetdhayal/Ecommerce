@@ -1,19 +1,40 @@
-
+body {
+    background-color: #fdefe5;
+}
 section {
     display: flex;
     flex-direction: column;
+    
 }
 .category {
     margin: 10px 5px;
     font-size: 2rem;
 }
 .range {
-   display: inline-block; 
    font-size: 1.5rem; 
    margin-top: 5px;
    margin-left: 20px;
+   color: red;
 }
 .laptops {
     margin: 0 20px;
 
+}
+
+.my-picks-heading {
+   font-size: 1.1rem; 
+   margin-top: 5px;
+   padding-top: 10px;
+   margin-left: 20px;
+}
+
+.other-picks-heading {
+    font-size: 1.1rem;
+    padding-top: 10px; 
+    margin-top: 20px;
+    margin-left: 20px; 
+}
+
+.my-picks, .other-picks {
+    background-color: white;
 }
